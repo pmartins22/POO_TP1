@@ -37,6 +37,12 @@ public class Main {
         // etape 7
 
         Robot robot = new Robot();
+        dog.play();
         robot.play();
+
+        Animal[] animals = {cow, dog};
+        for (Animal a : animals) {
+            a.makeSound();
+        }
     }
 }
