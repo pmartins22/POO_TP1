@@ -2,6 +2,8 @@ public class Dog extends Animal {
     public Dog() {
         this.name = "Dog";
         this.age = 0;
+        this.speed = 30.0;
+        this.setSecret("im dirty");
     }
 
     @Override

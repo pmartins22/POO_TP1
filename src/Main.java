@@ -19,5 +19,15 @@ public class Main {
 
         dog.eat();
         dog.eat(5);
+
+        // etape 5
+
+        System.out.println(dog.speed); // public attribute is accessible globally
+        // System.out.println(dog.name); // protected attribute is not accessible here
+        // System.out.println(dog.secret); // private attribute is not accessible here
+
+        // accessing private and protected attributes via public getter method
+        System.out.println(dog.getName());
+        System.out.println(dog.getSecret());
     }
 }
