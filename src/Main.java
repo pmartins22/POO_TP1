@@ -33,5 +33,10 @@ public class Main {
         // etape 6
 
         dog.play();
+
+        // etape 7
+
+        Robot robot = new Robot();
+        robot.play();
     }
 }
