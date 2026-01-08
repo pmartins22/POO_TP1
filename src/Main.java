@@ -29,5 +29,9 @@ public class Main {
         // accessing private and protected attributes via public getter method
         System.out.println(dog.getName());
         System.out.println(dog.getSecret());
+
+        // etape 6
+
+        dog.play();
     }
 }
