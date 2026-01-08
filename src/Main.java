@@ -6,7 +6,13 @@ public class Main {
 
         // etape 2
         Animal.printDescription();
-        Animal animal = new Animal();
-        animal.makeSound();
+        //Animal animal = new Animal();
+        //animal.makeSound();
+
+        // etape 3
+        Dog dog = new Dog();
+        dog.eat();
+        cow.eat();
+        // cow.eat(); and dog.eat(); are different implementations of the abstract method eat() from the Animal class.
     }
 }
