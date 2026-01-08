@@ -12,4 +12,9 @@ public class Cow extends Animal {
     public void eat() {
         System.out.println("The cow is eating grass.");
     }
+
+    @Override
+    public void eat(int amount) {
+        System.out.println("The cow is eating" + amount + " grass.");
+    }
 }

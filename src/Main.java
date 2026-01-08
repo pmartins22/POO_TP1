@@ -14,5 +14,10 @@ public class Main {
         dog.eat();
         cow.eat();
         // cow.eat(); and dog.eat(); are different implementations of the abstract method eat() from the Animal class.
+
+        // etape 4
+
+        dog.eat();
+        dog.eat(5);
     }
 }
