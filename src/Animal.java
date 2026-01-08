@@ -5,4 +5,8 @@ public class Animal {
     public void makeSound() {
         System.out.println("Some generic animal sound");
     }
+
+    public static void printDescription() {
+        System.out.println("Animals are multicellular, eukaryotic organisms of the kingdom Animalia.");
+    }
 }
